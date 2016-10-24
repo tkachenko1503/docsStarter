@@ -17,6 +17,7 @@
 name: Docs for ...
 description: Docs for some cool stuf
 url: https://github.com/tkachenko1503/docsStarter
+url: https://github.com/tkachenko1503/docsStarter/blob/master
 baseurl: ""
 permalink: "/blog/:year/:month/:day/:title.html"
 paginate_path: "/blog/page:num/"
