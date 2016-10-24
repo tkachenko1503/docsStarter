@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:description" content="{{ site.description }}">
+
+
+  <link rel="shortcut icon" href="../img/favicon-64.png">
+
+  <link rel="stylesheet" href="../css/syntax.css">
+  <link rel="stylesheet" href="../css/docs.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" type="text/css">
+
+  <script src="//use.typekit.net/vqa1hcx.js"></script>
+
+  <!--[if lte IE 8]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/es5-shim.min.js"></script>
+  <script src="../js/es5-sham.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="nav-main">
+      <div class="wrap">
+        <a class="nav-home" href="../index.html">
+          Checkout
+        </a>
+
+        <ul class="nav-site nav-site-internal">
+          <li><a href="../docs/introduction.html"{% if page.sectionid == 'docs' %} class="active"{% endif %}>docs</a></li>
+        </ul>
+        <ul class="nav-site nav-site-external">
+          <li><a href="https://github.com/ts1503/docsStarter">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    {{ content }}
+
+    <footer class="wrap">
+      <div class="left">
+        <a href="https://github.com" target="_blank">Acknowledgements</a>
+      </div>
+      <div class="right">
+        &copy; {{ site.time | date: '%Y' }} <a href="#" target="_blank">Org</a>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
