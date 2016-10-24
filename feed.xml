@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Docs for some cool stuf</description>
-    <link>https://github.com/tkachenko1503/docsStarter/blob/master/</link>
-    <atom:link href="https://github.com/tkachenko1503/docsStarter/blob/master/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2016 15:25:38 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2016 15:25:38 +0000</lastBuildDate>
+    <link>https://github.com/tkachenko1503/docsStarter/</link>
+    <atom:link href="https://github.com/tkachenko1503/docsStarter/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Oct 2016 15:27:50 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2016 15:27:50 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
   </channel>
